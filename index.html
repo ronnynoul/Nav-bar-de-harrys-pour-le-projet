@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>nav bar du projet</title>
+</head>
+<body>
+    <header>
+        <nav id="nav"> <!--contient les elements places dans la navbar principale-->
+            <img class="logo" src="image/sport.png" alt="logo">
+            <div class="recherche">
+                <input class="barre" type="search" placeholder="effectuez une recherche">
+            </div>
+            <div class="liste">
+                <a class="icone-star" href="#"><i class="far fa-star"></i></a>
+                <button class="icone-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                <a class="icone" href="#"><i class="far fa-bell"></i></a>
+                <a class="icone" href="#"><i class="far fa-circle-user"></i></a>
+                <a class="icone" href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="liste2"> <!--contient les elements places dans la navbar secondaire-->
+            <a class="texte" href="#"> Home</a>
+            <a class="texte" href="#"> About us</a>
+            <a class="texte" href="#"> Category</a>
+            <a class="texte" href="#"> Contact us</a>
+            <a class="texte" href="#"> In progress</a>
+
+        </div>
+    </header>
+    <div class="main">
+        <div class="conteneur-main">  
+            <!-- div contenant l'interface du chariot -->
+            <div class="chariot">
+                <div class="vide">
+                <h4 class="h4">votre charriot est vide</h4>
+                <button class="icone-croix"><i class="fa-solid fa-xmark"></i></button>
+                </div> 
+                <img class="image1" src="image/WhatsApp Image 2023-09-03 à 01.48.55.jpg" alt="">   
+            </div>
+            <!-- div contenant les favoris -->
+            <!-- <div class="fovoris">
+                <div class="vide">
+                <h4 class="h4">vous n'avez aucun favori</h4>
+                <button class="icone-croix"><i class="fa-solid fa-xmark"></i></button>
+                </div> 
+                <div class="p11">
+                    <p class="p1">cliquez sur l'icone <i class="far fa-star"></i>au bas de votre article pour l'ajouter en favori</p>
+                </div> 
+            </div> -->
+            <!-- div du boutton pour commenter et changer le theme  -->
+            <div class="fleche0">
+            <button class="fleche"><i class="fa-solid fa-chevron-up"></i></button>
+            </div>
+            <div class="commentaire">
+            <p><a class="icone3" href="#"><i class="far fa-comment"></i></a></p>
+            <p><a class="icone3" href="#"><i class="fa-solid fa-circle-half-stroke"></i></a></p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>
